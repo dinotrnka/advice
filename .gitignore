@@ -5,6 +5,7 @@ package-lock.json
 
 # ios
 ios/build/
+ios/advice.xcodeproj/project.xcworkspace/xcuserdata/dinotrnka.xcuserdatad/UserInterfaceState.xcuserstate
 
 # Android/IntelliJ
 #
