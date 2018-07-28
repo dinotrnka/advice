@@ -12,7 +12,7 @@ export default function (state = INITIAL_STATE, action) {
     case types.<%= uppercaseName %>_FAILURE:
       return { ...state, loading: false, finished: false };
     case types.<%= uppercaseName %>_SUCCESS:
-      return { ...state, loading: true, finished: true };
+      return { ...state, loading: false, finished: true };
     default:
       return state;
   }
