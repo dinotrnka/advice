@@ -7,7 +7,6 @@ import {
 } from 'react-native';
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
 
 import { signup } from '../state/signup/actions';
 
@@ -43,14 +42,6 @@ class Landing extends Component {
     );
   }
 }
-
-Landing.propTypes = {
-  signupFinished: PropTypes.bool,
-};
-
-Landing.defaultProps = {
-  signupFinished: false,
-};
 
 function mapStateToProps(state) {
   return {
