@@ -2,10 +2,9 @@ const { argv } = require('yargs');
 const gulp = require('gulp');
 const template = require('gulp-template');
 
-gulp.task('default', () => {});
-
 gulp.task('createReducer', () => {
   const { name } = argv;
+
   if (name && name.length > 0) {
     const uppercaseName = name.toUpperCase();
     const destinationPath = `src/state/${name}`;
